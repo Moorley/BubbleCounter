@@ -1,9 +1,10 @@
 import React from 'react';
-import MainScreen from './screens/MainScreen';
+import AudioButtonItem from './components/AudioButtonItem';
+
 
 export default function App() {
+ 
   return (
-   <MainScreen/>
+    <AudioButtonItem/>
   );
 }
-
